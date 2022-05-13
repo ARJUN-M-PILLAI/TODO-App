@@ -1,0 +1,107 @@
+*{
+    padding:0%;
+    margin: 0%;
+}
+
+/* LOGIN PAGE PROPERTIES */
+
+/* Body background properties */
+body{
+    background-size: cover;
+}
+
+/* Login form properties */
+#logIn_form{
+    width: 20em;
+    height: 20em;
+    margin-left: 35%;
+    margin-top: 10%;
+    background-color: beige;
+    border-style: solid;
+    border-color: red;
+}
+
+/* namePass class properties */
+.namePass{
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Input box (username and password) properties*/
+.input{
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+/* Submit button properties */
+#button{
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: rgb(73, 73, 251);
+    border-color: rgb(122, 185, 243);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Login form heading properties */
+h2{
+    text-align: center;
+    color: rgb(134, 126, 126);
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+
+/* Properties of the labels of input boxes */
+.label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(134, 126, 126);
+}
+
+/* Properties of the header of Main page and Todo list page */
+header{background-color: rgb(132, 203, 241);
+    height: 4em;}
+
+    .head-tag{float: right;
+        margin-top: -25px; margin-right: 15px;}
+        
+        .head-tag button{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        color: black;
+        border: 1px solid black;
+        padding: 8px;
+        margin-right: 8px;}
+        
+        .head-tag button:hover{
+            background-color: rgb(44, 41, 41);
+            color: white;
+            transition:0.2s ease-in-out;}
+h3{
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+}
+ 
+table {
+    border: 1px solid;
+    margin: 10px;
+    width: 98%;
+    background-color: lightcyan;
+}
+th {
+    border: 1.5px solid;
+    max-width: max-content;
+    text-align: center;
+    background-color: rgb(132, 203, 241);
+    height: 25px;
+}
+td {
+    border: 1px solid;
+    padding-left: 60px;
+}
